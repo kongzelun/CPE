@@ -1,0 +1,20 @@
+{
+  "dataset_path": "data/lsun_stream.csv",
+  "loss_type": "pdce",
+  "tensor_view": [
+    -1,
+    64,
+    64
+  ],
+  "in_channels": 1,
+  "number_layers": 10,
+  "growth_rate": 12,
+  "learning_rate": 0.000125,
+  "threshold": 35.61820983886719,
+  "gamma": 0.18158538964387166,
+  "tao": 19.215471267700195,
+  "b": 8.201369285583496,
+  "lambda_": 0.01,
+  "std_coefficient": 0.25,
+  "train_test_split": 6000
+}
